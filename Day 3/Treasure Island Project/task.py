@@ -25,21 +25,20 @@ print("Your mission is to find the treasure.")
 
 choice1 = input('you \' re at a crossroad, type "Left" or "Right" ')
 
-if choice1 == "Left":
-     choice2 = input(' "Swim" or "Wait?"')
-     if choice2 == "Wait":
-         door = input('"Red","Blue","Yellow","Anything Else"').lower()
-         if door == "Red":
-             print("Burned by fire \n Game Over")
-         elif door == "Blue":
-             print("Eaten by beast \n Gme Over!")
-         elif door == "Yellow":
-             print("You Win!")
-         else:
-             print("Game over!")
-     else:
-        print(" Fall into a hole \n Game Over!")
+if choice1 == 'Left':
+    choose2 = input('"swim", "wait"')
+    if choose2 == 'wait':
+        door = input('"Red","Yellow","Blue","Anything Else"')
+        if door == "Red":
+            print("Burned by fire Game Over")
+        elif door == 'Blue':
+            print("Eaten by beasts Game Over")
+        elif door == 'Yellow':
+            print("You Win!!")
+        else:
+            print("Game Over")
+    else:
+        print("Attacked by the trout Game Over")
 else:
-    print("Attack by trout\n Game Over")
-
+    print("Fall into a a hole Game Over")
 
