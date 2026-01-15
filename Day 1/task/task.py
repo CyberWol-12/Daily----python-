@@ -1,3 +1,4 @@
-# Write your code below this line 👇
-# print("Hello World!\n How  are you \n What are you doing")
-print("Divya" + " " "Ishank")
+print("Welcome to the land of music.\n")
+city = input("Name of the city you grew up?\n")
+pet_name =input("Name of the pet?\n")
+print("your band name could be:" + city + " " + pet_name)
