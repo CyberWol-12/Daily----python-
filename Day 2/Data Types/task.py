@@ -15,4 +15,4 @@ print(3.2345)
 
 #Boolean
 print(True)
-print(Flse)
+print(False)
