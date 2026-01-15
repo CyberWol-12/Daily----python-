@@ -1,7 +1,5 @@
-print("Is Even Number:")
-even_number = int(input("The even number is:"))
-
-if even_number % 2 == 0:
-    print("yes, that is Even Number!")
+number_to_check = int(input("What number you want to check"))
+if number_to_check % 2 == 0:
+    print("even number")
 else:
-    print("No, its odd number!")
+    print("odd number")
