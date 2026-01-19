@@ -1,6 +1,7 @@
  # TODO-1: Ask the user for input
 
-
+import art
+print(art.logo)
 
 # TODO-2: Save data into dictionary {name: price}
 def find_highest_bidder (bidding_dictionary):
